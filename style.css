@@ -106,5 +106,7 @@ a {
 /*===== Button =====*/
 
 /* Rotate toggle*/
-
+.active.floating__toggle i {
+  transform: rotate(135deg);
+}
 /* Move Icons*/
