@@ -110,3 +110,18 @@ a {
   transform: rotate(135deg);
 }
 /* Move Icons*/
+.active ~ ul .floating__link {
+  opacity: 1;
+}
+
+.active ~ ul .floating__link:nth-child(1) {
+  transform: translate(3.5rem, -3.5rem);
+}
+
+.active ~ ul .floating__link:nth-child(2) {
+  transform: translate(5.5rem);
+}
+
+.active ~ ul .floating__link:nth-child(3) {
+  transform: translate(3.5rem, -3.5rem);
+}
